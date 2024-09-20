@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Success";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Success and check the other page.</p>
+<script src="~/lib/microsoft/signalr/dist/browser/signalr.min.js"></script>
+
+<script>
+    var connection = new signalR.HubConnectionBuilder().withUrl("/single", { withCredentials: false }).build();
+    
+    function success() {
+        var id = getUrlParameter('id')
+        connection.invoke("Success", id).catch(function (err) {
+            console.log(err.toString());
+        });
+    }
+    var getUrlParameter = function getUrlParameter(sParam) {
+        var sPageURL = window.location.search.substring(1),
+            sURLVariables = sPageURL.split('&'),
+            sParameterName,
+            i;
+
+        for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
+
+            if (sParameterName[0] === sParam) {
+                return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+            }
+        }
+        return false;
+    };
+
+    async function start() {
+        try {
+            await connection.start();
+            success();
+            console.log("SignalR Connected.");
+        } catch (err) {
+            console.log(err);
+            setTimeout(start, 5000);
+        }
+    };
+
+    connection.onclose(async () => {
+        await start();
+    });
+
+    // Start the connection.
+    start();
+
+
+
+</script>

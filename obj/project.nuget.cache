@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "9UZCMGvereLR4GOHUHv3D3F5/ZeoSLXTzF3qOtk62BUlj+86C9KC6+NeLzgt2gg/8KZTiBcZQYm/BHRcnWxrEQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\SignalRDemo\\SignalRDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\8.0.8\\microsoft.aspnetcore.connections.abstractions.8.0.8.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\8.0.8\\microsoft.aspnetcore.signalr.client.core.8.0.8.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\8.0.8\\microsoft.aspnetcore.signalr.common.8.0.8.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\8.0.8\\microsoft.aspnetcore.signalr.protocols.json.8.0.8.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.bcl.timeprovider\\8.0.1\\microsoft.bcl.timeprovider.8.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.features\\8.0.8\\microsoft.extensions.features.8.0.8.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.text.json\\8.0.4\\system.text.json.8.0.4.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.threading.channels\\8.0.0\\system.threading.channels.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
